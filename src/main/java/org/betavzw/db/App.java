@@ -51,6 +51,7 @@ public class App {
 
             prep.setInt(1, inputID);
 
+
             if (prep.executeUpdate() == 0)
                 System.out.printf("%nRecord met id %d is niet gevonden.%n", inputID);
 
